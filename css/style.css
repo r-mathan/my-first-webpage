@@ -181,7 +181,7 @@ h2{
     background-color: #f7f8f9;
     padding: 30px;
 }
-.head h3{
+.head h2{
     font-size: 30px;
     text-align: center;
     color: #627680;
@@ -216,5 +216,46 @@ h2{
     padding: 15px 0px
 }
 .bottom  .ser_1:hover{
-   border-bottom: solid 5px red;
+   border-bottom: solid 5px #ff689b;
+}
+.bottom  .ser_1 h2{
+    color: #ff689b;
+    font-weight: 700;
+}
+.bottom  .ser_2:hover{
+    border-bottom: solid 5px #3fcdc7;
+ }
+ .bottom  .ser_2 h2{
+     color: #3fcdc7;
+     font-weight: 700;
+ }
+ .bottom  .ser_3:hover{
+    border-bottom: solid 5px #41cf2e;
+ }
+ .bottom  .ser_3 h2{
+     color: #41cf2e;
+     font-weight: 700;
+ }
+ .bottom  .ser_4:hover{
+    border-bottom: solid 5px #2282ff;
+ }
+ .bottom  .ser_4 h2{
+     color: #2282ff;
+     font-weight: 700;
+ }
+
+ /*----------PORTFOLIO----------*/
+ 
+#portfolio .head_2{
+    display: flex;
+    padding: 4px 450px;
+    padding-bottom: 40px;
+}
+#portfolio .clk{
+    padding: 0px 14px
+}
+.bottom .image{
+    border: solid 1px black;
+    margin: 45px;
+    background-color: grey;
 }
